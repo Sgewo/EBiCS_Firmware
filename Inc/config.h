@@ -59,7 +59,7 @@
 
 //----------------------------------------------------------------------
 //PAS mode settings
-//#define DIRDET
+#define DIRDET
 #define FRAC_HIGH 30
 #define FRAC_LOW 15
 #define PAS_TIMEOUT 3000
@@ -75,7 +75,7 @@
 //Speed settings
 #define WHEEL_CIRCUMFERENCE 2200
 #define GEAR_RATIO 11 //11 for BionX IGH3
-#define SPEEDLIMIT 25
+#define SPEEDLIMIT 50
 #define PULSES_PER_REVOLUTION 1
 #define SPEEDSOURCE INTERNAL
 #define SPEEDFILTER 1
