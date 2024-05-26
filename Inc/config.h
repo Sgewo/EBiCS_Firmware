@@ -9,7 +9,7 @@
 #define CONFIG_H_
 #include "stdint.h"
 #define DISPLAY_TYPE_EBiCS (1<<5)                  // King-Meter 618U protocol (KM5s, EBS-LCD2, J-LCD, SW-LCD)
-#define DISPLAY_TYPE_KINGMETER_618U (1<<3)                  // King-Meter 618U protocol (KM5s, EBS-LCD2, J-LCD, SW-LCD)
+#define DISPLAY_TYPE_KINGMETER_618U (1<<3)                  // King-Meter 618U protocol (KM5s, EBS-LCD2, J-LCD, SW-LCD/
 #define DISPLAY_TYPE_KINGMETER_901U (1<<4)                  // King-Meter 901U protocol (KM5s)
 #define DISPLAY_TYPE_KINGMETER      (DISPLAY_TYPE_KINGMETER_618U|DISPLAY_TYPE_KINGMETER_901U)
 #define DISPLAY_TYPE_BAFANG (1<<2)							// For 'Blaupunkt' Display of Prophete Entdecker
@@ -44,12 +44,12 @@
 #define THROTTLE_MAX 800
 #define WHEEL_CIRCUMFERENCE 2200
 #define GEAR_RATIO 11 //dummy for testing
-#define SPEEDLIMIT 25
+#define SPEEDLIMIT 50
 #define PULSES_PER_REVOLUTION 1
 #define PH_CURRENT_MAX 1200
 #define BATTERYCURRENT_MAX 15000
 #define SPEC_ANGLE 0//-167026406L //BionX IGH3 -143165476
-//#define DIRDET
+#define DIRDET
 #define FRAC_HIGH 30
 #define FRAC_LOW 15
 //#define TS_MODE
